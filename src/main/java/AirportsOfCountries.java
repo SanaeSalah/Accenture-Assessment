@@ -48,7 +48,7 @@ public class AirportsOfCountries implements  Comparable<AirportsOfCountries>{
     @Override
     public String toString() {
         return "AirportsOfCountry [" +
-                "countryByCode" + countryByCode  +
+                "countryByCode=" + countryByCode  +
                 ", countryByName=" + countryByName +
                 ", countingRunways=" + countingRunways +
                 ']';
